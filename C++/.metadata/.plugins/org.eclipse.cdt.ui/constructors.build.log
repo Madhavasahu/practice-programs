@@ -1,7 +1,0 @@
-14:28:30 **** Incremental Build of configuration Debug for project constructors ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\constructors.o" "..\\src\\constructors.cpp" 
-g++ -o constructors.exe "src\\constructors.o" 
-
-14:28:31 Build Finished. 0 errors, 0 warnings. (took 1s.146ms)
-

@@ -1,7 +1,0 @@
-16:43:26 **** Incremental Build of configuration Debug for project Lists ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lists.o" "..\\src\\Lists.cpp" 
-g++ -o Lists "src\\Lists.o" 
-
-16:43:27 Build Finished. 0 errors, 0 warnings. (took 878ms)
-

@@ -1,7 +1,0 @@
-21:40:18 **** Incremental Build of configuration Debug for project 2DVectors ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2DVectors.o" "..\\src\\2DVectors.cpp" 
-g++ -o 2DVectors.exe "src\\2DVectors.o" 
-
-21:40:19 Build Finished. 0 errors, 0 warnings. (took 1s.107ms)
-

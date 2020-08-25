@@ -1,7 +1,0 @@
-10:48:37 **** Incremental Build of configuration Debug for project StacksAndQueues ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\StacksAndQueues.o" "..\\src\\StacksAndQueues.cpp" 
-g++ -o StacksAndQueues.exe "src\\StacksAndQueues.o" 
-
-10:48:38 Build Finished. 0 errors, 0 warnings. (took 985ms)
-

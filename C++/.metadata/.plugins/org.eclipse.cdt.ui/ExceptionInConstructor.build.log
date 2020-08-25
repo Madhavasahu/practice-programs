@@ -1,7 +1,0 @@
-15:15:07 **** Incremental Build of configuration Debug for project ExceptionInConstructor ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ExceptionInConstructor.o" "..\\src\\ExceptionInConstructor.cpp" 
-g++ -o ExceptionInConstructor.exe "src\\ExceptionInConstructor.o" 
-
-15:15:08 Build Finished. 0 errors, 0 warnings. (took 985ms)
-
