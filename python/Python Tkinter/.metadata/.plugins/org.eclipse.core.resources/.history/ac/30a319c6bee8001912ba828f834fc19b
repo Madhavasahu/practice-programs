@@ -1,0 +1,10 @@
+import tkinter as tk
+from tkinter import messagebox
+
+def main():
+    root = tk.Tk()
+    root.wm_title("Main Window")
+    messagebox.showerror("msg Box","tkitner message box")
+    root.mainloop()
+if __name__ == "__main__":
+    main()

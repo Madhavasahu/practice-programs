@@ -1,0 +1,7 @@
+13:05:51 **** Incremental Build of configuration Debug for project constKeyword2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\constKeyword2.o" "..\\src\\constKeyword2.cpp" 
+g++ -o constKeyword2.exe "src\\constKeyword2.o" 
+
+13:05:52 Build Finished. 0 errors, 0 warnings. (took 1s.55ms)
+

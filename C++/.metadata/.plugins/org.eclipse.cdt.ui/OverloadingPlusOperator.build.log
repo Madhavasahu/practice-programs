@@ -1,0 +1,7 @@
+10:22:05 **** Incremental Build of configuration Debug for project OverloadingPlusOperator ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\OverloadingPlusOperator.o" "..\\src\\OverloadingPlusOperator.cpp" 
+g++ -o OverloadingPlusOperator.exe "src\\OverloadingPlusOperator.o" 
+
+10:22:06 Build Finished. 0 errors, 0 warnings. (took 744ms)
+

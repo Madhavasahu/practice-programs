@@ -1,0 +1,18 @@
+/*
+ ============================================================================
+ Name        : Practice-2.c
+ Author      : Madhava
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+extern int animal;
+int  main(void) {
+	register int  weight;
+	int *ptr=&weight;
+	return 0;
+}

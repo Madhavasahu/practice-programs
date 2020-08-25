@@ -1,0 +1,15 @@
+from tkinter import *
+
+root = Tk()
+root.title("SevyaMM")
+windWidth = 600
+windHeight = 500
+screenWidth = root.winfo_screenmmwidth()
+screenHeight =root.winfo_screenmmheight()
+
+x = (screenWidth/2)-(screenWidth/2)
+y = (screenHeight/2)-(screenHeight/2)
+root.geometry("%dx%d+%d+%d" % (windWidth,windHeight,x,y))
+
+
+root.mainloop()

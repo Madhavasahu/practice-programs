@@ -1,0 +1,7 @@
+13:12:28 **** Incremental Build of configuration Debug for project TrialsLinkedIn ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TrialsLinkedIn.o" "..\\src\\TrialsLinkedIn.cpp" 
+g++ -o TrialsLinkedIn.exe "src\\TrialsLinkedIn.o" 
+
+13:12:29 Build Finished. 0 errors, 0 warnings. (took 727ms)
+

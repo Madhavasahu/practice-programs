@@ -1,0 +1,8 @@
+from tkinter import *
+
+root = Tk()
+windWidth = 1378
+windHeight = 768
+
+
+root.mainloop()

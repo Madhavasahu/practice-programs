@@ -1,0 +1,22 @@
+class A(object):
+    def __init__(self,name,age,salary):
+        self.__name = name
+        self.__age = age
+        self.__salary = salary
+    def getReport(self):    
+        return [self.name,self.age,self.salary]
+    def printReport(self):
+        raise NotImplementedError("couldn't make a call to printReport")
+
+class B(A):
+    def __init__(self, *args):
+        A.__init__(self, *args)
+    def foo(self):
+        return "SAHU"
+    def printReport(self):
+        print("name:{}\nage:{}\nsalary:{}\n".format(self.name,self.age,self.salary))    
+def main():
+    a= B("madhava",23,90000)
+    print(a.foo())
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,6 @@
+import datetime
+
+#store the next available id for all new notes
+last_id = 0
+class Note:
+    

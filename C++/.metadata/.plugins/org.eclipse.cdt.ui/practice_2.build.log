@@ -1,0 +1,13 @@
+19:03:22 **** Incremental Build of configuration Debug for project practice_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fold\\2.o" "..\\src\\fold\\2.c" 
+In file included from ..\src\fold\2.c:7:
+..\src\fold\../two.h:11:12: warning: 'a' defined but not used [-Wunused-variable]
+ static int a=2;
+            ^
+gcc -o practice_2.exe "src\\fold\\2.o" "src\\one.o" "src\\practice_2.o" 
+c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/ld.exe: src\practice_2.o:practice_2.c:(.data+0x8): multiple definition of `madhava'; src\fold\2.o:2.c:(.data+0x4): first defined here
+collect2.exe: error: ld returned 1 exit status
+
+19:03:23 Build Failed. 1 errors, 1 warnings. (took 543ms)
+

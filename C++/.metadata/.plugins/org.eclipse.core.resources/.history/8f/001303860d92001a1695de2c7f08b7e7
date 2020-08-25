@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : practice.c
+ Author      : Madhava
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+struct Test{
+	struct Test *next;
+};
+int main(void) {
+	struct Test test;
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	printf("%d",sizeof(Test));
+	return EXIT_SUCCESS;
+}

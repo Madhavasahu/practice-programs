@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;returningRefToMemberVar/src/copyConstructors.cpp&apos; to &apos;main.cpp&apos;" description="Rename resource &apos;copyConstructors.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/copyConstructors.cpp" name="main.cpp" stamp="1587369178846" updateReferences="true"/>
+</session>

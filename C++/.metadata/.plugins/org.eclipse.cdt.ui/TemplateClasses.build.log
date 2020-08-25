@@ -1,0 +1,7 @@
+10:58:31 **** Incremental Build of configuration Debug for project TemplateClasses ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TemplateClasses.o" "..\\src\\TemplateClasses.cpp" 
+g++ -o TemplateClasses.exe "src\\TemplateClasses.o" 
+
+10:58:31 Build Finished. 0 errors, 0 warnings. (took 902ms)
+

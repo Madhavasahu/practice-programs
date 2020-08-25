@@ -1,0 +1,2 @@
+import sys
+from notebook import NoteBook,Note

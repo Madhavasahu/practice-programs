@@ -1,0 +1,20 @@
+/*
+ ============================================================================
+ Name        : Practice-2.c
+ Author      : Madhava
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "a.h"
+int main(void) {
+	//animal = 100;
+	printf("%d",animal);
+	/*change();
+	printf("%d",animal);*/
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Inheritance&apos; to &apos;SizeVsCapacity&apos;" description="Rename resource &apos;Inheritance&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Inheritance" name="SizeVsCapacity" stamp="1587987725154" updateReferences="true"/>
+</session>

@@ -1,0 +1,17 @@
+from tkinter import *
+from tkinter import messagebox
+def main():
+    root = Tk()
+    root.wm_title("Main Window")
+    root.geometry("1366x768")
+    messagebox.showwarning("msg Box","tkitner message box")
+    t1=Toplevel(root)
+    t1.geometry("500x500")
+    Label(t1, text='This is a child of root').pack(padx=10, pady=10)
+    for relief in [RAISED, SUNKEN, FLAT, RIDGE, GROOVE, SOLID]:
+        f = Frame(root, borderwidth=2, relief=relief)
+        Label(f, text=relief, width=10).pack(side=LEFT)     
+        f.pack(side=LEFT, padx=5, pady=5)
+    root.mainloop()
+if __name__ == "__main__":
+    main()

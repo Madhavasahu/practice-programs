@@ -1,0 +1,11 @@
+21:27:59 **** Incremental Build of configuration Debug for project practice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\practice.o" "..\\src\\practice.c" 
+..\src\practice.c: In function 'main':
+..\src\practice.c:18:7: warning: unused variable 'ptr' [-Wunused-variable]
+  int *ptr = NULL;
+       ^~~
+gcc -o practice.exe "src\\practice.o" 
+
+21:28:00 Build Finished. 0 errors, 1 warnings. (took 566ms)
+

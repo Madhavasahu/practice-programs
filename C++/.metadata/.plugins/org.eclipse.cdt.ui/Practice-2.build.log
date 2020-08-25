@@ -1,0 +1,7 @@
+21:02:09 **** Incremental Build of configuration Debug for project Practice-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Practice-2.o" "..\\src\\Practice-2.c" 
+gcc -o Practice-2.exe "src\\Practice-2.o" "src\\b.o" 
+
+21:02:09 Build Finished. 0 errors, 0 warnings. (took 481ms)
+
