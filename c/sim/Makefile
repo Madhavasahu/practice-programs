@@ -3,9 +3,9 @@ make -C sim/ -s FILE=fileName
 
 CC      = gcc
 C_FLAGS = -Wall -lm -g
-INC_DIR =/myspace/ubuntu/practice-programs/C/inc
-SRC_DIR =/myspace/ubuntu/practice-programs/C/src
-SIM_DIR =/myspace/ubuntu/practice-programs/C/sim
+INC_DIR =/myspace/ubuntu/practice-programs/c/inc
+SRC_DIR =/myspace/ubuntu/practice-programs/c/src
+SIM_DIR =/myspace/ubuntu/practice-programs/c/sim
 
 all:compile run
 
