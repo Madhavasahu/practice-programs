@@ -1,6 +1,0 @@
-from tkinter import *
-
-my_window = Tk()
-my_window.title("my window")
-my_window.configure(background='blue')
-my_window.mainloop()

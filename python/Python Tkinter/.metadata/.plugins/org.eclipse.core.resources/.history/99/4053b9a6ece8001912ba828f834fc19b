@@ -1,8 +1,0 @@
-import datetime
-
-#store the next available id for all new notes
-last_id = 0
-class Note:
-    '''Represents a note in the notebook. Match against a 
-    string in searches and store tags for each note'''
-    

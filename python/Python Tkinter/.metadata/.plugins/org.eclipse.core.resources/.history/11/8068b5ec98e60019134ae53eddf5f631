@@ -1,7 +1,0 @@
-from tkinter import *
-
-my_window = Tk()
-my_window.title("my window")
-#my_window.configure(width=500,height=500,bg='#00ff00')
-my_window.geometry("1368x700+500+100")
-my_window.mainloop()
