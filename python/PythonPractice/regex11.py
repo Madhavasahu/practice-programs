@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 
 import re
-stg = "my name is Madhava and rat I am agent like you and want meet at I41"
+stg = "my name is Madhava and I am an agent like you and want to meet u at I41"
 regex1 = re.compile(r'\w\d+')
 regex2 = re.compile(r'Madhava')
 #findings = regex1.findall(stg)
